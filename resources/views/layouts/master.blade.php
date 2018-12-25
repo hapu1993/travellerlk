@@ -11,7 +11,8 @@
     <!-- Start WOWSlider.com HEAD section -->
 <link rel="stylesheet" type="text/css" href="{{URL('assets/engine1/style.css')}}" />
 <script type="text/javascript" src="{{URL('assets/engine1/jquery.js')}}"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- End WOWSlider.com HEAD section -->
 <style media="screen">
 /* Footer */
@@ -27,7 +28,8 @@ section .section-title {
   text-transform: uppercase;
 }
 #footer {
-  background: #007b5e !important;
+  background: #003580 !important;
+  font-size: 12px;
 }
 #footer h5{
 padding-left: 10px;
@@ -103,6 +105,10 @@ margin-right: 5px;
     <script src="{{URL('assets/js/jquery-3.3.1.js')}}"></script>
     <script src="{{URL('assets/js/bootstrap.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 
   @yield('scripts')

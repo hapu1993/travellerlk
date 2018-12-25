@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="col-md-12">
+<div class="col-md-12 cover">
 
 	<div class="row">
 
@@ -41,7 +41,7 @@
 
 
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 banner2">
 				<div class="row">
 
 
@@ -55,8 +55,11 @@
 	</div>
 </div>
 
-<div class="container">
-  <h2>Our  Partners/ Our Clients</h2>
+
+
+
+
+  <div class="col-md-12 partners_title"><h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Our  Partners</h2></div>
    <section class="customer-logos slider">
       <div class="slide"><img src="{{URL('assets/images/logoslider/logo1.png')}}"></div>
       <div class="slide"><img src="{{URL('assets/images/logoslider/logo2.png')}}"></div>
@@ -72,7 +75,7 @@
    </section>
 
 
-</div>
+
 
 
 @endsection

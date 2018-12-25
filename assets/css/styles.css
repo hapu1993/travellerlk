@@ -1,3 +1,35 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cover{
+  padding-top: 20px;
+}
+
+.bg-light {
+    background-color: #003580 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 12px;
+    color: rgba(255, 255, 255, 1.0) !important;
+}
+.partners_title{
+  background-color: #003580;
+}
+
+.partners_title{
+  color:#fff;
+}
+.banner2{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
 .homeimage{
 
 width: -webkit-fill-available;
